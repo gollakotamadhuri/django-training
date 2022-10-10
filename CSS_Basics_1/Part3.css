@@ -1,0 +1,28 @@
+.FirstDiv {
+    color: red;
+}
+
+.SecondDiv {
+    color: blue;
+}
+
+#singledout {
+    color: green;
+    text-decoration: line-through;
+}
+
+h3+ul {
+    border: 4px;
+    border-style: dotted;
+    border-color: rgb(233, 95, 95);
+
+}
+
+li a {
+    color: red
+}
+
+li a[href="https://www.goodreads.com"] {
+    color: blue;
+    border: 2px solid black;
+}
