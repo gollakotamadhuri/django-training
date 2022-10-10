@@ -1,0 +1,62 @@
+body {
+    border-right: 60px solid rgb(23, 190, 179);
+    border-left: 60px solid rgb(23, 190, 179);
+    border-bottom: 60px solid rgb(23, 190, 179);
+    background-color: rgb(17, 17, 45);
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#firsth {
+    text-align: center;
+}
+
+#secondh {
+    text-align: center;
+}
+
+#firstp {
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-bottom: 50px;
+    padding-right: 250px
+}
+
+#secondp {
+    padding-left: 250px;
+    padding-right: 250px
+}
+
+#thirdh {
+    padding-bottom: 50px;
+}
+
+#firstinput {
+    width: 270px;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+
+#secondinput {
+    width: 270px;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+
+#thirdinput {
+    width: 270px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#submitkey {
+    width: 150px;
+    height: 70px;
+    font-size: large;
+    background-color: rgb(249, 166, 41);
+    border-radius: 20px;
+}
