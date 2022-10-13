@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "templateapp/base.html" %}
+{% block body_block%}
+<h1>WELCOME TO RELATIVE URL TEMPLATES PAGE!</h1>
+<a href="{% url 'templateapp:other' %}">CLICK HERE TO GO TO OTHER PAGE</a><br>
+<a href="{% url 'admin:index' %}">ADMIN PAGE</a>
+{% endblock%}
