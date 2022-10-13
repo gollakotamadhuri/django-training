@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Info</title>
+    <link rel="stylesheet" href="{% static 'css/master.css' %}">
+</head>
+
+<body>
+    <div>
+        <h1>This is the User Info page</h1>
+        <p>User details are as follows:</p>
+        {% if user_data %}
+        <ol>
+            {% for user in user_data %}
+            <li>User Info</li>
+            <ul>
+                <li>First Name: {{user.first_name}}</li>
+                <li>Last Name: {{user.last_name}}</li>
+                <li>Email: {{user.email}}</li>
+            </ul>
+            {% endfor %}
+        </ol>
+        {% else %}
+        <p>No records found</p>
+        {% endif %}
+    </div>
+
+</body>
+
+</html>
