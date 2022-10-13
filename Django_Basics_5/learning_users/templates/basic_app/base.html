@@ -27,7 +27,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'admin:index' %}">Admin</a>
                 </li>
-                {% if user.authenticated %}
+                {% if user.is_authenticated %}
                 <li class="nav-item"><a class="nav-link" href="{% url 'special' %}">Special</a></li>
                 <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}">Logout</a></li>
                 {% else %}
